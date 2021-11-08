@@ -1,6 +1,33 @@
-h1 {
-    font-family: nova, "Times New Roman", sans-serif;
-    font-size:32px;
-    font-style: italic;
-    color: blue;
-  }
+/*Within this CSS style sheet I put a lot of focus on background color for the headers and then a dark background for the whole html document. I also wanted to make sure the words on the page popped and were easily readable so I made sure they were white to make it easy to read. I made sure to add a few fonts and back up fonts and created different sizes for the bodies of text and the headers. I made sure to throw in a box-sizing height for the whole html document. Otherwise I played around with the margin a little bit and the padding to make it a fuller design, and tried to eliminate some of the empty space */
+html {
+  background: black;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: Nova, Georgia, sans-serif;
+  background: turquoise;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  padding: 3px;
+  margin: 5px;
+}
+
+ul, ol, li {
+  font-family: monospace, Tahoma, sans-serif;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  margin: 16px;
+}
+
+a, p, link {
+  font-family: monospace, Tahoma, sans-serif;
+  color: white;
+  font-size: 12px;
+  margin: 15px;
+}
