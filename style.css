@@ -34,3 +34,7 @@ a, p, link {
   font-size: 12px;
   margin: 15px;
 }
+
+a:hover {
+  color: darkblue;
+}
