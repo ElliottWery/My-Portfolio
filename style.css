@@ -2,7 +2,10 @@
 html {
   background: black;
   text-align: center;
-  box-sizing: border-box;
+}
+
+img {
+  height: 200px;
 }
 
 header {
